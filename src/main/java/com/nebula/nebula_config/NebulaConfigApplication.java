@@ -1,9 +1,11 @@
-package com.example.nebula_config;
+package com.nebula.nebula_config;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.config.server.EnableConfigServer;
 
 @SpringBootApplication
+@EnableConfigServer
 public class NebulaConfigApplication {
 
     public static void main(String[] args) {

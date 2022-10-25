@@ -1,4 +1,4 @@
-package com.example.nebula_config;
+package com.nebula.nebula_config;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
